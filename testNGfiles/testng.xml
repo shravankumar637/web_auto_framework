@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Fold health login suite" verbose ="2"  parallel ="false" preserve-order ="true">
+ 
+ <parameter name ="app_prop" value="app.properties"/>
+ 
+ <listeners>
+      <listener class-name ="io.fold.core.utility.CustomTestListener"/>
+ 
+ </listeners>
+
+
+  <test name="Login suite" preserve-order="true">
+    <classes>
+      <class name="io.web.testclass.LoginTest">
+      <methods>
+      
+      <include name ="initWebPage"/>
+      <include name ="verifyLoginFunctionality"/>
+      <include name ="tapOnSideDrawerElements"/>
+      
+      
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

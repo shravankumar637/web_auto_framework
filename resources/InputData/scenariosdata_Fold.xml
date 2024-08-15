@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Data>
+
+<scenario name="default">
+	<testdata name="abc" value="pqr"/>
+</scenario>
+
+
+<scenario name="Web_Smoke_Suite">
+
+	<!--Patient Module test data -->
+
+	<testdata name="patientFName" value="Shravan" />
+	<testdata name="patientLName" value="UI_Automation" />
+	<testdata name="patientDOB" value="09-07-1990" />
+
+	<testdata name="patientChosenName" value="Automation Patient" />
+	<testdata name="patientEmail" value="shravank+auto_" />
+	<testdata name="patientEmailDomain" value="@fold.health" />
+	<testdata name="patientMobileNmbr" value="4705163888" />
+	<testdata name="zipcode" value="10001" />
+	<testdata name="address1" value="132 Street" />
+	<testdata name="address2" value="Kingston" />
+
+
+
+	<!--Patient Module test data -->
+	<testdata name="emailid" value="balrajchughrck1@gmail.com" />
+	<testdata name="assignToName" value="Balraj Test" />
+	<testdata name="invalidEmaild" value="testabc@yopmail.com" />
+	<testdata name="taskName" value="Walk" />
+	<testdata name="taskDescription"
+		value="Patient has to walk three times in a day" />
+	<testdata name="firstName" value="Automation" />
+	<testdata name="groupName" value="Automation Testing Group" />
+	<testdata name="chatType1" value="Chat With Patient" />
+	<testdata name="patientName" value="Male, 04/28/1990(34 yrs)" />
+	<testdata name="patientMessage"
+		value=" Hi Wilson Automation, how can I help you?" />
+	<testdata name="providerMessage"
+		value="Hi John, How are you ?" />
+
+	<testdata name="sentPatientMessage"
+		value="Hi Wilson Automation, how can I help you?" />
+
+
+</scenario>
+
+
+</Data>

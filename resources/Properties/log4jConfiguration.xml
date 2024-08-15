@@ -1,0 +1,32 @@
+<Configuration>
+
+
+ <Appenders>
+      
+      <File name ="log" fileName ="target/log/Application.log" append="false">
+             <PatternLayout pattern ="%d - %c - %p - %m%n"/>
+      </File>
+      
+         <File name ="html" fileName="target/log/Application.html" append="false">
+              <HTMLLayout charset ="UTF-8" title="Application log" locationInfo="true"/> 
+         </File>
+      
+              <Console name ="STDOUT" target="SYSTEM_OUT">
+                  <PatternLayout pattern ="%m%n"/>
+             </Console>
+
+ </Appenders>
+      
+      <Loggers>
+      
+      
+               <Root level ="info">
+                   <AppenderRef ref ="STDOUT"/>
+                   <AppenderRef ref ="log"/>
+                   <AppenderRef ref ="html"/>
+                  
+               </Root>
+        
+      </Loggers>
+      
+</Configuration>
